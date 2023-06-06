@@ -1,0 +1,24 @@
+{
+    "name": "plug-server",
+    "version": "1.0.0",
+    "description": "A simple websocket server implementation from scratch using Typescript",
+    "main": "index.js",
+    "scripts": {
+        "test": "node test/index.js",
+        "dev": "npm run build && node dist/index.js",
+        "build": "npx prettier --write . && etsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^20.2.4",
+        "@types/uuid": "^9.0.1",
+        "esbuild": "^0.17.19",
+        "esbuild-node-tsc": "^2.0.5",
+        "prettier": "2.8.8",
+        "ws": "^8.13.0"
+    },
+    "dependencies": {
+        "uuid": "^9.0.0"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "dist",
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "module": "ESNext",
+        "sourceMap": true,
+        "removeComments": true,
+        "allowJs": true,
+        "strict": true,
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true
+    },
+    "exclude": ["./test/**/*", "./dist/**/*"]
+}
